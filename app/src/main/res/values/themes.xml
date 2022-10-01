@@ -19,6 +19,13 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="Buttons" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">@color/orange</item>
+        <item name="android:layout_width">136dp</item>
+        <item name="android:layout_height">136dp</item>
+        <item name="android:src">@drawable/ic_baseline_add_24</item>
+    </style>
+
     <style name="Theme.Shopping_app.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Shopping_app.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
